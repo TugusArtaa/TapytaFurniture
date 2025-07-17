@@ -1,0 +1,88 @@
+/* Gaya dasar untuk semua ukuran layar */
+.container {
+  max-width: 1280px;
+  width: 100%;
+  color: #000000;
+}
+
+.content {
+  padding: 2rem;
+}
+
+.content h2 {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.cntct {
+  color: #000;
+  position: relative;
+}
+
+.cntct::after {
+  content: "";
+  position: absolute;
+  top: 11px;
+  left: 90px;
+  height: 2px;
+  width: 15%;
+  background: brown;
+}
+
+.box {
+  padding: 1.4rem;
+  background: rgba(255, 255, 255, 0.716);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  width: calc(33.33% - 20px);
+  margin-bottom: 20px;
+  flex: 1;
+}
+
+.head-icons {
+  display: flex;
+  align-items: center;
+}
+
+.headings {
+  margin-left: 10px;
+}
+
+.inside_container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.photo img {
+  max-width: 100%;
+}
+
+.map iframe {
+  max-width: 100%;
+}
+
+.photo,
+.map {
+  width: calc(50% - 2px);
+  margin-bottom: 20px;
+}
+
+.social-icon {
+  align-items: center;
+}
+
+/* Gaya responsif untuk layar yang lebih kecil */
+@media (max-width: 767px) {
+  .box {
+    width: 100%;
+  }
+
+  .photo,
+  .map {
+    width: 100%;
+  }
+}

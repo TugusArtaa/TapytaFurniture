@@ -1,0 +1,64 @@
+# Ignore system files
+*.log
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+*.code-workspace
+
+# Ignore Composer vendor folder
+vendor/
+
+# Ignore uploads folder (user-generated content)
+uploads/
+
+# Ignore environment and configuration files
+.env
+.env.local
+.env.*.local
+
+# Ignore cache and session files
+cache/
+sessions/
+
+# Ignore PHPUnit test results
+phpunit.xml
+phpunit.xml.dist
+
+# Ignore Laravel-specific files (if applicable)
+storage/
+bootstrap/cache/
+
+# Ignore Node.js dependencies (if applicable)
+node_modules/
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.pid
+*.seed
+*.backup
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore database dumps
+*.sql
+*.sqlite
+
+# Ignore other sensitive files
+secret.key

@@ -1,0 +1,15 @@
+# Aktifkan mesin rewriting
+RewriteEngine On
+
+# Periksa apakah URL yang diminta bukan merupakan file (!-f)
+RewriteCond %{REQUEST_FILENAME} !-f
+
+# Periksa apakah URL yang diminta bukan merupakan direktori (!-d)
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Jika kedua kondisi di atas terpenuhi, lakukan rewriting berikut
+# Ambil seluruh URL yang diminta dan tangkap sebagai $1
+# Rewrite ke index.php dengan URL yang ditangkap sebagai parameter 'uri'
+# QSA: Sertakan query string asli ke URL yang diarahkan ulang
+# L: Hentikan pemrosesan aturan lebih lanjut setelah aturan ini terpenuhi
+RewriteRule ^(.+)$ index.php?uri=$1 [QSA,L]
