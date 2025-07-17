@@ -35,6 +35,7 @@ Tapyta Furniture adalah aplikasi e-commerce berbasis PHP yang dirancang untuk me
 - PHP (minimal versi 7.x)
 - MySQL/MariaDB
 - Web server (Apache/Laragon/XAMPP)
+- Composer (untuk mengelola dependensi PHP)
 
 ### Langkah-Langkah
 
@@ -45,16 +46,23 @@ Tapyta Furniture adalah aplikasi e-commerce berbasis PHP yang dirancang untuk me
    cd TapytaFurniture
    ```
 
-2. **Setup Database**
+2. **Install Dependensi**
+
+   - Jalankan perintah berikut untuk mengunduh dependensi PHP:
+     ```bash
+     composer install
+     ```
+
+3. **Setup Database**
 
    - Buat database dengan nama `db_TapytaFurniture2`.
    - Import file SQL jika tersedia.
 
-3. **Konfigurasi Koneksi Database**
+4. **Konfigurasi Koneksi Database**
 
    - Edit file `views/db.php` untuk menyesuaikan host, nama database, username, dan password.
 
-4. **Jalankan Web Server**
+5. **Jalankan Web Server**
    - Pastikan folder project berada di root web server (misal: `c:\laragon\www\TapytaFurniture`).
    - Akses di browser:
      ```
@@ -71,6 +79,14 @@ Tapyta Furniture adalah aplikasi e-commerce berbasis PHP yang dirancang untuk me
 - `router.php`: File untuk routing custom.
 - `uploads/`: Folder untuk menyimpan gambar produk.
 - `.htaccess`: File untuk URL rewriting.
+
+---
+
+## Catatan Penting
+
+- Pastikan modul `mod_rewrite` aktif di Apache untuk mendukung URL rewriting.
+- Folder `vendor/` tidak diupload ke repository. Anda harus menjalankan `composer install` untuk mengunduh dependensi.
+- Jika ada masalah saat menjalankan project, periksa konfigurasi database dan file `.htaccess`.
 
 ---
 
