@@ -90,4 +90,41 @@ Tapyta Furniture adalah aplikasi e-commerce berbasis PHP yang dirancang untuk me
 
 ---
 
+## Screenshot Hasil Website
+
+Berikut adalah tampilan halaman-halaman utama aplikasi:
+
+### 1. Halaman Register
+
+![Register](public/screenshot/Register.png)
+
+### 2. Halaman Login
+
+![Login](public/screenshot/Login.png)
+
+### 3. Halaman Profil
+
+![Profil 1](public/screenshot/Profil-1.png)
+![Profil 2](public/screenshot/Profil-2.png)
+
+### 4. Halaman Utama Tapyta
+
+![Tapyta 1](public/screenshot/Tapyta-1.png)
+![Tapyta 2](public/screenshot/Tapyta-2.png)
+![Tapyta 3](public/screenshot/Tapyta-3.png)
+![Tapyta 4](public/screenshot/Tapyta-4.png)
+![Tapyta 5](public/screenshot/Tapyta-5.png)
+![Tapyta 6](public/screenshot/Tapyta-6.png)
+![Tapyta 7](public/screenshot/Tapyta-7.png)
+
+### 5. Halaman Admin Panel
+
+![Admin 1](public/screenshot/Admin-1.png)
+![Admin 2](public/screenshot/Admin-2.png)
+![Admin 3](public/screenshot/Admin-3.png)
+![Admin 4](public/screenshot/Admin-4.png)
+![Admin 5](public/screenshot/Admin-5.png)
+
+---
+
 Jika ada pertanyaan atau masalah, silakan hubungi [email@example.com](mailto:email@example.com).
