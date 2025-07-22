@@ -28,49 +28,6 @@ Tapyta Furniture adalah aplikasi e-commerce berbasis PHP yang dirancang untuk me
 
 ---
 
-## Cara Menjalankan
-
-### Prasyarat
-
-- PHP (minimal versi 7.x)
-- MySQL/MariaDB
-- Web server (Apache/Laragon/XAMPP)
-- Composer (untuk mengelola dependensi PHP)
-
-### Langkah-Langkah
-
-1. **Clone Repository**
-
-   ```bash
-   git clone https://github.com/username/TapytaFurniture.git
-   cd TapytaFurniture
-   ```
-
-2. **Install Dependensi**
-
-   - Jalankan perintah berikut untuk mengunduh dependensi PHP:
-     ```bash
-     composer install
-     ```
-
-3. **Setup Database**
-
-   - Buat database dengan nama `db_TapytaFurniture2`.
-   - Import file SQL jika tersedia.
-
-4. **Konfigurasi Koneksi Database**
-
-   - Edit file `views/db.php` untuk menyesuaikan host, nama database, username, dan password.
-
-5. **Jalankan Web Server**
-   - Pastikan folder project berada di root web server (misal: `c:\laragon\www\TapytaFurniture`).
-   - Akses di browser:
-     ```
-     http://localhost/TapytaFurniture/
-     ```
-
----
-
 ## Struktur Folder
 
 - `index.php`: Entry point aplikasi.
@@ -82,49 +39,69 @@ Tapyta Furniture adalah aplikasi e-commerce berbasis PHP yang dirancang untuk me
 
 ---
 
-## Catatan Penting
-
-- Pastikan modul `mod_rewrite` aktif di Apache untuk mendukung URL rewriting.
-- Folder `vendor/` tidak diupload ke repository. Anda harus menjalankan `composer install` untuk mengunduh dependensi.
-- Jika ada masalah saat menjalankan project, periksa konfigurasi database dan file `.htaccess`.
-
----
-
 ## Screenshot Hasil Website
 
-Berikut adalah tampilan halaman-halaman utama aplikasi:
+### 📝 Register
 
-### 1. Halaman Register
+<table>
+  <tr>
+    <td><img src="public/screenshot/Register.png" alt="Register" width="220" /></td>
+  </tr>
+</table>
 
-![Register](public/screenshot/Register.png)
+### 🔑 Login
 
-### 2. Halaman Login
+<table>
+  <tr>
+    <td><img src="public/screenshot/Login.png" alt="Login" width="220" /></td>
+  </tr>
+</table>
 
-![Login](public/screenshot/Login.png)
+### 👤 Profil
 
-### 3. Halaman Profil
+<table>
+  <tr>
+    <td><img src="public/screenshot/Profil-1.png" alt="Profil 1" width="220" /></td>
+    <td><img src="public/screenshot/Profil-2.png" alt="Profil 2" width="220" /></td>
+  </tr>
+</table>
 
-![Profil 1](public/screenshot/Profil-1.png)
-![Profil 2](public/screenshot/Profil-2.png)
+### 🏠 Tapyta (Homepage & Fitur)
 
-### 4. Halaman Utama Tapyta
+<table>
+  <tr>
+    <td><img src="public/screenshot/Tapyta-1.png" alt="Tapyta 1" width="220" /></td>
+    <td><img src="public/screenshot/Tapyta-2.png" alt="Tapyta 2" width="220" /></td>
+  </tr>
+  <tr>
+    <td><img src="public/screenshot/Tapyta-3.png" alt="Tapyta 3" width="220" /></td>
+    <td><img src="public/screenshot/Tapyta-4.png" alt="Tapyta 4" width="220" /></td>
+  </tr>
+  <tr>
+    <td><img src="public/screenshot/Tapyta-5.png" alt="Tapyta 5" width="220" /></td>
+    <td><img src="public/screenshot/Tapyta-6.png" alt="Tapyta 6" width="220" /></td>
+  </tr>
+  <tr>
+    <td><img src="public/screenshot/Tapyta-7.png" alt="Tapyta 7" width="220" /></td>
+    <td></td>
+  </tr>
+</table>
 
-![Tapyta 1](public/screenshot/Tapyta-1.png)
-![Tapyta 2](public/screenshot/Tapyta-2.png)
-![Tapyta 3](public/screenshot/Tapyta-3.png)
-![Tapyta 4](public/screenshot/Tapyta-4.png)
-![Tapyta 5](public/screenshot/Tapyta-5.png)
-![Tapyta 6](public/screenshot/Tapyta-6.png)
-![Tapyta 7](public/screenshot/Tapyta-7.png)
+### 🎛️ Admin
 
-### 5. Halaman Admin Panel
-
-![Admin 1](public/screenshot/Admin-1.png)
-![Admin 2](public/screenshot/Admin-2.png)
-![Admin 3](public/screenshot/Admin-3.png)
-![Admin 4](public/screenshot/Admin-4.png)
-![Admin 5](public/screenshot/Admin-5.png)
+<table>
+  <tr>
+    <td><img src="public/screenshot/Admin-1.png" alt="Admin 1" width="220" /></td>
+    <td><img src="public/screenshot/Admin-2.png" alt="Admin 2" width="220" /></td>
+  </tr>
+  <tr>
+    <td><img src="public/screenshot/Admin-3.png" alt="Admin 3" width="220" /></td>
+    <td><img src="public/screenshot/Admin-4.png" alt="Admin 4" width="220" /></td>
+  </tr>
+  <tr>
+    <td><img src="public/screenshot/Admin-5.png" alt="Admin 5" width="220" /></td>
+    <td></td>
+  </tr>
+</table>
 
 ---
-
-Jika ada pertanyaan atau masalah, silakan hubungi [email@example.com](mailto:email@example.com).
